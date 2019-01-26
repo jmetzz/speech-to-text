@@ -1,0 +1,13 @@
+name: speech-to-text
+channels:
+  - defaults
+dependencies:
+  - pyaudio
+  - autopep8
+  - pylint
+  - prompt_toolkit
+  - pip:
+    - SpeechRecognition
+    - google-api-python-client
+    - pocketsphinx
+
